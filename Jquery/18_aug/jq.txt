@@ -1,0 +1,5 @@
+show, hide, toggle
+
+https://www.w3schools.com/jquERy/jquery_selectors.asp
+
+page 6

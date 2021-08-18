@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<script>
+		$(document).ready(function(){
+			$("#b1").click(function(){
+			var x = $("p").attr("title");
+			$("#heading").text(x);
+		});
+		});
+	</script>
+	<button id="b1">Click here</button>
+	<h1 id="heading"></h1>
+	<p title="This is my paragraph">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Itaque a ab numquam temporibus vitae perspiciatis iure neque iusto, est ullam odio id deserunt voluptas quidem harum pariatur rem veritatis eos.</p>
+</body>
+</html>
